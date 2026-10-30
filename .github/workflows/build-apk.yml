@@ -31,6 +31,7 @@ jobs:
 
       - name: Extract Android project
         run: unzip -q RandomizerAndroid-cloud-build.zip
+        
         - name: Apply new AndroidRasa screen
         run: |
           mkdir -p RandomizerAndroid/app/src/main/java/com/example/randomizer
